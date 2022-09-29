@@ -1,0 +1,550 @@
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+}
+
+header img {
+    width: 10rem;
+    margin: .5rem 2rem;
+}
+
+nav {
+    margin-right: 2rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav a {
+    margin: 0 .5rem;
+    padding: .3rem;
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.786);
+}
+
+nav a:hover {
+    text-decoration: overline;
+    color: rgb(198, 180, 118);
+    transition: .5s;
+}
+
+.banner-principal-home {
+    background-image: url(https://letrimex.com.mx/wp-content/uploads/2020/06/Efectos-en-eventos.jpg);
+    background-position: center;
+    text-align: center;
+    background-color: rgba(226, 129, 24, 0.582);
+    height: 85vh;
+}
+
+.cambiar-pagina-home {
+    margin-right: 3rem;
+    margin-top: 2.5rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-principal {
+    background-image: url(https://letrimex.com.mx/wp-content/uploads/2020/06/Efectos-en-eventos.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.cambiar-pagina-home>a {
+    margin-top: 12rem;
+    font-size: 4rem;
+}
+
+.banner-segundo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cambiar-pagina {
+    margin-right: 3rem;
+    font-size: 3rem;
+}
+
+.retroceder-pagina {
+    margin-left: 3rem;
+    font-size: 3rem;
+}
+
+.home {
+    color: rgb(195, 1, 233);
+    text-shadow: 8px 8px 8px rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 5rem;
+    /* margin-top: 12rem; */
+    display: block;
+}
+
+h1 {
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px black;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.contenedor {
+    background-color: rgba(154, 10, 243, 0.127);
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0 2rem 0;
+}
+
+#categorias {
+    display: flex;
+}
+
+.contenedor-checks {
+    margin: 0 1rem;
+}
+
+.buscar {
+    border: 1px solid;
+    border-right: none;
+}
+
+.buscar input {
+    background-image: url(../img/pngegg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    border: none;
+}
+
+#cardHome {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#cardEvents,
+#cardPastEvents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#cardHome,
+#cardEvents,
+img {
+    height: 55%;
+    border-top: 10px;
+}
+
+.cardEvents{
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+}
+
+main {
+    min-height: 83vh;
+}
+
+.tarjetaDatos {
+    border-radius: 0 0 15px 15px;
+    border: 1px solid rgba(233, 196, 251, 0.34);
+}
+
+.contenedor-cards {
+    padding-top: 2rem;
+    background-color: rgba(154, 10, 243, 0.083);
+}
+
+.card-title {
+    text-align: center;
+    padding-top: .5rem;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.precio-vermas>p {
+    position: inline-block;
+    margin-top: 1rem;
+}
+
+.btn {
+    background-color: rgb(255, 172, 113);
+    color: darkblue;
+}
+
+.btn:hover {
+    background-color: rgb(255, 136, 62);
+    color: rgb(73, 72, 72);
+    border: 1px solid gold;
+}
+
+
+/* Contacto */
+
+.contacto {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    line-height: 2;
+}
+
+.main_contacto{
+    background-color: rgba(88, 30, 205, 0.357);
+    background-image: url(../img/contacto-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 85%;
+}
+
+.contenedor-contacto {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    width: 90%;
+    margin-inline: auto;
+}
+
+.boton-enviar {
+    width: 7rem;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    background-color: rgba(251, 223, 157, 0.585);
+    border: 0;
+}
+
+.boton-enviar:hover {
+    background-color: rgba(21, 245, 159, 0.704);
+    color: whitesmoke;
+    transition: .3s;
+}
+
+/* Stats */
+
+.stats_main{
+    background-image: url(../img/stats-img.svg);
+    background-size: contain;
+    background-position: center;
+}
+
+table {
+    width: 90%;
+    margin-inline: auto;
+    line-height: 2;
+    margin-top: 2rem;
+    border: 1px solid;
+}
+
+td {
+    border: 1px solid;
+    padding-left: .3rem;
+    font-weight: 500;
+}
+
+.estadisticas{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.titulo {
+    background-color: rgba(128, 128, 128, 0.786);
+    color: rgb(186, 11, 55);
+    font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgba(48, 48, 48);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes a {
+    margin-inline: .5rem;
+    padding-top: 1rem;
+}
+
+.cohort {
+    padding-right: .5rem;
+    padding-top: 1rem;
+}
+
+.insta {
+    width: 1.5rem;
+}
+
+.face {
+    width: 1.5rem;
+}
+
+.wapp {
+    width: 1.5rem;
+}
+
+.copy {
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+
+/* DETAILS */
+
+.contenedor-detalles {
+    padding-top: 8rem;
+}
+
+.detailsCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-descripcion {
+    padding-left: 5rem;
+}
+
+.card-descripcion h5 {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 767px) {
+
+    header img {
+        display: none;
+    }
+
+    header nav {
+        width: 100%;
+        background-color: rgba(48, 48, 48, 0.824);
+        margin-right: 0;
+    }
+
+    nav>a {
+        font-size: .85rem;
+        padding: 0;
+        margin: 0;
+        color: rgb(251, 59, 136);
+        font-weight: 800;
+    }
+
+    .banner-principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner-principal-home {
+        height: 100vh;
+        margin-top: 4rem;
+    }
+
+    .cambiar-pagina-home {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .home{
+        margin-top: 10rem;
+    }
+
+    .retroceder-pagina a {
+        font-size: 2rem;
+    }
+
+    .cambiar-pagina a {
+        font-size: 2rem;
+    }
+
+    #cardHome {
+        justify-content: center;
+    }
+
+    .contenedor {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #categorias {
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .categorias {
+        padding: .5rem;
+    }
+
+    .buscar {
+        border: none;
+    }
+
+    .buscar input {
+        margin-top: 1rem;
+        border-bottom: 2px solid;
+        width: 100%;
+        background-image: url(../img/pngegg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 90%;
+    }
+
+
+    .contenedor-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .btn {
+        width: 25vw;
+        background-color: rgba(235, 172, 12, 0.573);
+        color: whitesmoke;
+        border: none;
+    }
+
+    .contenedor-detalles {
+        width: 100%;
+        /* height: 10vh; */
+    }
+
+    .contenedor-hijo {
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+
+    .imagen {
+        height: auto;
+        width: 100%;
+    }
+
+    .descripcion {
+        padding-left: 1rem;
+    }
+
+    .descripcion h5 {
+        padding-left: 4rem;
+    }
+
+    .detailsCard {
+        flex-direction: column;
+        padding-top: .2rem;
+    }
+
+    #cardHome,
+    #cardEvents,
+    img {
+        height: auto;
+    }
+
+    .stats_main{
+        background-image: none;
+        background-image: linear-gradient(to right, #ec77ac8a 0%, #7773f58a 100%);
+    }
+
+    .estadisticas{
+        font-weight: 600;
+    }
+
+    footer {
+        height: 25vh;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgb(48, 48, 48);
+    }
+
+    .redes img {
+        width: 1rem;
+        margin-bottom: .5rem;
+    }
+
+    .copy {
+        padding: 0 .2rem;
+    }
+
+    .cohort {
+        padding-top: .2rem;
+    }
+}
+
+@media(max-width: 1023px) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    nav{
+        margin-right: .5rem;
+    }
+
+    nav a {
+        font-size: 1.3rem;
+        margin: 0;
+        padding: .2rem;
+    }
+
+    .home{
+        margin-top: 8rem;
+    }
+
+    .cambiar-pagina-home {
+        display: none;
+    }
+
+    #cardHome {
+        justify-content: space-around;
+    }
+
+    .contenedor {
+        padding: .5rem .5rem 0 0;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contenedor-checks {
+        margin: .5rem;
+    }
+
+    .buscar {
+        margin-left: 60%;
+        border: none;
+    }
+
+    .buscar>input {
+        float: right;
+        margin-right: 1rem;
+        border-right: 1px solid;
+        border-bottom: 1px solid;
+    }
+
+    .contenedor-cards {
+        margin-top: .5rem;
+    }
+
+    table {
+        width: 88%;
+    }
+
+}
