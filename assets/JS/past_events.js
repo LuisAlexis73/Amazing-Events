@@ -1,4 +1,4 @@
-var URI = 'https://amazing-events.herokuapp.com/api/events'
+var URI = 'https://amazing-events-d7382-default-rtdb.firebaseio.com/api.json'
 
 let pastEvents = document.getElementById('cardPastEvents')
 
