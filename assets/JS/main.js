@@ -1,5 +1,5 @@
 
-const URI = 'https://amazing-events.herokuapp.com/api/events'
+const URI = 'https://amazing-events-d7382-default-rtdb.firebaseio.com/api.json'
 
 let cards = document.getElementById("cardHome")
 
