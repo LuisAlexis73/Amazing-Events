@@ -36,9 +36,9 @@ nav a:hover {
 
 .banner-principal-home {
     background-image: url(https://i.ytimg.com/vi/q4j9vMBXhMM/maxresdefault.jpg);
-    background-position: center;
+    background-repeat: round;
     text-align: center;
-    background-color: rgba(226, 129, 24, 0.582);
+    background-color: rgba(0, 0, 0);
     height: 85vh;
 }
 
